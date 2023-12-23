@@ -1,0 +1,33 @@
+#start_screen_div{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    font-size: 5em;
+    background-color: black;
+    text-align: center;
+}
+
+#content_parent {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+  
+#content {
+    font-size: 5em;
+    text-align: center;
+}
+
+input[type="number"] {
+    background-color: black;
+    border: 0px;
+    width: 1.7em;
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+body{
+    background-color: black;
+}
